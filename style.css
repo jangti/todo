@@ -1,0 +1,25 @@
+#todo{
+	margin-top: 50px;
+}
+#todo .txtParent{
+	padding-right: 0;
+}
+#todo .subParent{
+	padding-left: 0;
+}
+#todoSub, #todoTxt{
+	border-radius: 0;
+}
+#todoList .list-group-item:first-child{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+h2{
+	text-align: center;
+}
+.done{
+	text-decoration: line-through;
+}
+#todoList button.done:hover{
+	text-decoration: line-through;
+}
