@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>todo list</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+</head>
+<body id="todo">
+	<div class="container">
+	<h2>Todo list</h2>
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<form id="todoForm">
+					<div class="form-group">
+						<div class="row">
+							<div class="col-md-9 txtParent">
+								<!-- <label for="todoTxt">Task</label> -->
+								<input class="form-control" placeholder="Enter text here" id="todoTxt" type="text" name="todo">
+							</div>
+							<div class="col-md-3 subParent">
+							<button type="submit" class="btn btn-success form-control">Submit</button>
+							</div>
+						</div>
+					</div>
+				</form>
+				<div class="list-group">
+					<table id="todoList" class="table table-bordered">
+						 
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
